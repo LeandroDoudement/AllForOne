@@ -1,5 +1,38 @@
 
-*AllForOne* é um projeto simples para praticar todos os conceitos de SQL usando o banco de dados `Northwind`. As instruções de como restaurar o banco podem ser lidas a seguir.
+# MySQL All for One
+
+Esse repositório contém um projeto prático desenvolvido durante o curso de Desenvolvimento de Software da [Trybe](https://www.betrybe.com/). O objetivo do projeto é aplicar conceitos de modelagem e manipulação de dados em um ambiente de banco de dados relacional utilizando MySQL.
+
+## Descrição Geral
+
+O MySQL All for One é um sistema de gerenciamento de eventos, onde é possível criar e gerenciar eventos e realizar inscrições nos mesmos. O sistema possui um banco de dados relacional com múltiplas tabelas, onde são armazenados os dados de eventos, usuários e inscrições.
+
+## Funcionalidades
+
+O MySQL All for One possui as seguintes funcionalidades:
+
+- Cadastro de usuários
+- Autenticação de usuários
+- Listagem de eventos
+- Busca de eventos por nome ou descrição
+- Criação de eventos
+- Edição de eventos
+- Remoção de eventos
+- Listagem de participantes de um evento
+- Criação de inscrições em eventos
+- Cancelamento de inscrições em eventos
+
+## Tecnologias utilizadas
+
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
+
+- [Node.js](https://nodejs.org)
+- [Express](https://expressjs.com/)
+- [MySQL](https://www.mysql.com/)
+- [Sequelize](https://sequelize.org/)
+- [JWT](https://jwt.io/)
+- [Mocha](https://mochajs.org/) e [Chai](https://www.chaijs.com/) para testes automatizados
+- [Swagger](https://swagger.io/) para documentação da API
 
 <details>
   <summary><strong>🗒️ Instruções para restaurar o banco de dados `Northwind`</strong></summary><br />
